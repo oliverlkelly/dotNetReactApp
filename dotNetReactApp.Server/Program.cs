@@ -1,10 +1,13 @@
 using dotNetReactApp.Server.Models;
+using dotNetReactApp.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.Configure<CharacterStoreDatabaseSettings>(
     builder.Configuration.GetSection("CharacterDatabase"));
+
+builder.Services.AddSingleton<CharactersService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
