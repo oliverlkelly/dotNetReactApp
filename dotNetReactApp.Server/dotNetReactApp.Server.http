@@ -1,6 +1,6 @@
-@dotNetReactApp.Server_HostAddress = http://localhost:5139
+@dotNetReactApp.Server_HostAddress = http://localhost:44363
 
-GET {{dotNetReactApp.Server_HostAddress}}/weatherforecast/
+GET {{dotNetReactApp.Server_HostAddress}}/api/
 Accept: application/json
 
 ###

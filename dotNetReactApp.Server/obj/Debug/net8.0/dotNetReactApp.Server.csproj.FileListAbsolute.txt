@@ -34,3 +34,16 @@ C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\obj\Debug\net8.0\refint\dotN
 C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\obj\Debug\net8.0\dotNetReactApp.Server.pdb
 C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\obj\Debug\net8.0\dotNetReactApp.Server.genruntimeconfig.cache
 C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\obj\Debug\net8.0\ref\dotNetReactApp.Server.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\DnsClient.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\SharpCompress.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\Snappier.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\ZstdSharp.dll
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Code\dotnet\dotNetReactApp\dotNetReactApp.Server\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
