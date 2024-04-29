@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Card from "./components/Card.tsx";
 
 interface Character {
-    Id: string
+    id: string
     name: string;
     experience: number;
     class: string;
@@ -20,30 +21,44 @@ function App() {
 
     const contents = characters === undefined
         ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tabelLabel">
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Experience</th>
-                <th>Class</th>
-                <th>Acumen</th>
-                <th>Brawn</th>
-                <th>Conduct</th>
-            </tr>
-            </thead>
-            <tbody>
-                {characters.map(character =>
-                    <tr key={character.Id}>
-                        <td>{character.name}</td>
-                        <td>{character.experience}</td>
-                        <td>{character.class}</td>
-                        <td>{character.acumen}</td>
-                        <td>{character.brawn}</td>
-                        <td>{character.conduct}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
+        // : <table className="table table-striped" aria-labelledby="tabelLabel">
+        //     <thead>
+        //     <tr>
+        //         <th>Name</th>
+        //         <th>Experience</th>
+        //         <th>Class</th>
+        //         <th>Acumen</th>
+        //         <th>Brawn</th>
+        //         <th>Conduct</th>
+        //     </tr>
+        //     </thead>
+        //     <tbody>
+        //         {characters.map(character =>
+        //             <tr key={character.id}>
+        //                 <td>{character.name}</td>
+        //                 <td>{character.experience}</td>
+        //                 <td>{character.class}</td>
+        //                 <td>{character.acumen}</td>
+        //                 <td>{character.brawn}</td>
+        //                 <td>{character.conduct}</td>
+        //             </tr>
+        //         )}
+        //     </tbody>
+        // </table>;
+        : <div>
+            {characters.map(character =>
+                    <Card
+                        key={character.id}
+                        name={character.name}
+                        cClass={character.class}
+                        experience={character.experience}
+                        acumenScore={character.acumen}
+                        brawnScore={character.brawn}
+                        conductScore={character.conduct}
+                    />
+                )
+            }
+        </div>
 
     return (
         <div>

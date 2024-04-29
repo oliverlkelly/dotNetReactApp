@@ -11,7 +11,7 @@ public class Character
     public string? Id { get; set; }
 
     [BsonElement("Name")]
-    [JsonPropertyName("Name")]
+    [JsonPropertyName("name")]
     public string CharacterName { get; set; } = null!;
 
     public decimal Experience { get; set; }
